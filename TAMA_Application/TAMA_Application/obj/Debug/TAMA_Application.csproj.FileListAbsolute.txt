@@ -8,3 +8,13 @@ C:\Users\osaha\Desktop\New folder (2)\TAMA\TAMA_Application\TAMA_Application\bin
 C:\Users\osaha\Desktop\New folder (2)\TAMA\TAMA_Application\TAMA_Application\bin\Debug\TAMA_Application.pdb
 C:\Users\osaha\Desktop\New folder (2)\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.exe
 C:\Users\osaha\Desktop\New folder (2)\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.pdb
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\bin\Debug\TAMA_Application.exe.config
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\bin\Debug\TAMA_Application.exe
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\bin\Debug\TAMA_Application.pdb
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.csprojAssemblyReference.cache
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.Form1.resources
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.Properties.Resources.resources
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.csproj.GenerateResource.cache
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.csproj.CoreCompileInputs.cache
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.exe
+C:\Users\osaha\Desktop\TAMA\TAMA_Application\TAMA_Application\obj\Debug\TAMA_Application.pdb

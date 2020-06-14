@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,7 @@ namespace TAMA_Application
 
         private void MapButton_Click(object sender, EventArgs e)
         {
+            Map3DPanel.Visible = false;
             StreamPanel.Visible = false;
             SensorPanel.Visible = false;
             MapPanel.Visible = true;
@@ -36,12 +38,14 @@ namespace TAMA_Application
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            FotoTanimla();
+            /*
             graphics = MapPictureBox.CreateGraphics();
             brush = new SolidBrush(Color.Red);
             kalem = new Pen(brush, 2);
             StreamPanel.Visible = false;
             MapPanel.Visible = false;
-            SensorPanel.Visible = true;
+            SensorPanel.Visible = true;*/
         }
 
         private void SendLocationButton_Click(object sender, EventArgs e)
@@ -64,6 +68,7 @@ namespace TAMA_Application
 
         private void SensorDataButton_Click(object sender, EventArgs e)
         {
+            Map3DPanel.Visible = false;
             StreamPanel.Visible = false;
             MapPanel.Visible = false;
             SensorPanel.Visible = true;
@@ -78,9 +83,31 @@ namespace TAMA_Application
 
         private void PiCamButton_Click(object sender, EventArgs e)
         {
+            Map3DPanel.Visible = false;
             MapPanel.Visible = false;
             SensorPanel.Visible = false;
             StreamPanel.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StreamPanel.Visible = false;
+            SensorPanel.Visible = false;
+            MapPanel.Visible = false;
+            Map3DPanel.Visible = true;
+        }
+
+        string[] gelenDosyalar;
+
+        public void FotoTanimla()
+        {
+            FolderBrowserDialog dialog = new FolderBrowserDialog();
+            dialog.ShowDialog();
+            gelenDosyalar = System.IO.Directory.GetFiles(dialog.SelectedPath);
+            for(int a = 0; a < gelenDosyalar.Length; a++)
+            {
+                listBox1.Items.Add((gelenDosyalar[a].Remove(0, dialog.SelectedPath.Length + 1)).Replace(".png", ""));
+            }
         }
     }
 }
