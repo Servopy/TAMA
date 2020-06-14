@@ -1,0 +1,1 @@
+- Uygulamayı çalıştırmak için ~\TAMA_Application\bin\Debug\TAMA_Application.exe
